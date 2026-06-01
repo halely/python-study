@@ -23,14 +23,20 @@
 
 ```
 python-study/
-├── 01_basics/                    # 阶段1：基础入门
-│   ├── 01_data_types.py          #   核心数据类型（list/tuple/dict/set）
-│   ├── 02_loops.py               #   循环（for/while/break/continue/else）
-│   ├── 03_strings.py             #   字符串操作（切片/方法/f-string/split/join）
-│   ├── exercise_multiplication.py #  练习：九九乘法表
-│   └── exercise_shopping.py      #  练习：购物清单管理
-├── BMI.py                        # 综合练习：BMI 计算器
-├── text.py                       # 小练习：zip 遍历
+├── 01_basics/                     # 阶段1：基础入门
+│   ├── 01_data_types.py           #   核心数据类型（list/tuple/dict/set）
+│   ├── 02_loops.py                #   循环（for/while/break/continue/else）
+│   ├── 03_strings.py              #   字符串操作（切片/方法/f-string/split/join）
+│   ├── 04_file_io.py              #   文件读写（with/open/读写/追加/pathlib）
+│   ├── exercise_shopping.py       #   练习：购物清单（数据类型）
+│   ├── exercise_multiplication.py #   练习：九九乘法表（循环）
+│   ├── exercise_password.py       #   练习：密码强度检查器（字符串）
+│   ├── exercise_note.py           #   练习：笔记管理器v1（文件读写初版）
+│   └── exercise_note_v2.py        #   练习：笔记管理器v2（json存储优化）
+├── demo/
+│   └── BMI.py                     # 综合练习：BMI 计算器（入门作）
+├── text.py                        # 小练习：一元二次方程
+├── .gitignore
 └── README.md
 ```
 
@@ -38,19 +44,21 @@ python-study/
 
 ## 🎯 学习路线图
 
-### ✅ 阶段 1：基础入门（已完成）
+### ✅ 阶段 1：基础入门（已完成 — 2024-06-01）
 
-- [x] 核心数据类型：`list`、`tuple`、`dict`、`set`
+- [x] 核心数据类型：`list`、`tuple`、`dict`、`set` + 列表/字典/集合推导式
 - [x] 循环与控制流：`for`、`while`、`break`、`continue`、`else`
 - [x] 字符串操作：切片、常用方法、f-string、split/join
-- [x] 综合练习：班级成绩分析、猜数字游戏、文本统计分析
+- [x] 文件读写：`with open()`、读写/追加模式、`pathlib`、`json` 持久化
+- [x] 综合练习：班级成绩分析、猜数字游戏、文本统计分析、购物清单、乘法表、密码检查器、笔记管理器
 
-### 🚧 阶段 2：函数与模块（进行中）
+### 🚧 阶段 2：函数与模块（下一步）
 
 - [ ] 函数定义与作用域（`def`、`lambda`、闭包）
 - [ ] 参数进阶（`*args`、`**kwargs`、默认参数、类型提示）
 - [ ] 模块与包管理（`import`、`__name__`、pip、虚拟环境）
-- [ ] 常用内置函数（`map`、`filter`、`reduce`、`sorted`、`enumerate`、`zip`）
+- [ ] 异常处理（`try/except/else/finally`、自定义异常）
+- [ ] 常用内置函数（`map`、`filter`、`sorted`、`enumerate`、`zip`）
 
 ### 📋 阶段 3：面向对象编程
 
@@ -60,13 +68,12 @@ python-study/
 - [ ] 属性装饰器（`@property`、`@staticmethod`、`@classmethod`）
 - [ ] 数据类（`dataclass`、`NamedTuple`）
 
-### 📋 阶段 4：文件与异常处理
+### 📋 阶段 4：实用技能
 
-- [ ] 文件读写（`open`、`with` 上下文管理器）
-- [ ] CSV / JSON 数据处理
-- [ ] 异常处理（`try/except/else/finally`）
-- [ ] 自定义异常
+- [ ] 常用标准库（`datetime`、`collections`、`random`、`itertools`）
+- [ ] 第三方库入门（`requests`、`pandas`）
 - [ ] 日志记录（`logging` 模块）
+- [ ] 命令行参数（`argparse`）
 
 ### 📋 阶段 5：进阶主题
 

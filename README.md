@@ -1,0 +1,135 @@
+# 🐍 Python Study
+
+> 从零开始系统学习 Python，记录学习笔记和练习代码。
+
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+
+---
+
+## 📖 项目简介
+
+本项目是我**系统学习 Python** 的代码仓库，包含从基础语法到进阶主题的完整学习路线。每个知识点都配有：
+
+- 📝 **详细注释**的示例代码
+- 🏋️ **动手练习**（综合运用多个知识点）
+- 🎯 **真实场景模拟**（成绩分析、购物清单、文本统计等）
+
+代码风格遵循 **PEP 8** 规范，使用 **type annotations**（类型注解）增强可读性。
+
+---
+
+## 📁 项目结构
+
+```
+python-study/
+├── 01_basics/                    # 阶段1：基础入门
+│   ├── 01_data_types.py          #   核心数据类型（list/tuple/dict/set）
+│   ├── 02_loops.py               #   循环（for/while/break/continue/else）
+│   ├── 03_strings.py             #   字符串操作（切片/方法/f-string/split/join）
+│   ├── exercise_multiplication.py #  练习：九九乘法表
+│   └── exercise_shopping.py      #  练习：购物清单管理
+├── BMI.py                        # 综合练习：BMI 计算器
+├── text.py                       # 小练习：zip 遍历
+└── README.md
+```
+
+---
+
+## 🎯 学习路线图
+
+### ✅ 阶段 1：基础入门（已完成）
+
+- [x] 核心数据类型：`list`、`tuple`、`dict`、`set`
+- [x] 循环与控制流：`for`、`while`、`break`、`continue`、`else`
+- [x] 字符串操作：切片、常用方法、f-string、split/join
+- [x] 综合练习：班级成绩分析、猜数字游戏、文本统计分析
+
+### 🚧 阶段 2：函数与模块（进行中）
+
+- [ ] 函数定义与作用域（`def`、`lambda`、闭包）
+- [ ] 参数进阶（`*args`、`**kwargs`、默认参数、类型提示）
+- [ ] 模块与包管理（`import`、`__name__`、pip、虚拟环境）
+- [ ] 常用内置函数（`map`、`filter`、`reduce`、`sorted`、`enumerate`、`zip`）
+
+### 📋 阶段 3：面向对象编程
+
+- [ ] 类与对象（`class`、`__init__`、`self`）
+- [ ] 继承与多态
+- [ ] 魔术方法（`__str__`、`__repr__`、`__eq__` 等）
+- [ ] 属性装饰器（`@property`、`@staticmethod`、`@classmethod`）
+- [ ] 数据类（`dataclass`、`NamedTuple`）
+
+### 📋 阶段 4：文件与异常处理
+
+- [ ] 文件读写（`open`、`with` 上下文管理器）
+- [ ] CSV / JSON 数据处理
+- [ ] 异常处理（`try/except/else/finally`）
+- [ ] 自定义异常
+- [ ] 日志记录（`logging` 模块）
+
+### 📋 阶段 5：进阶主题
+
+- [ ] 迭代器与生成器（`yield`、`itertools`）
+- [ ] 装饰器（`@decorator`、带参数装饰器）
+- [ ] 上下文管理器（`with` 语句、`contextlib`）
+- [ ] 并发编程入门（`threading`、`asyncio`）
+- [ ] 类型系统深入（`Protocol`、`Generic`、`TypeVar`）
+
+### 📋 阶段 6：实战项目
+
+- [ ] 命令行工具（argparse、Click）
+- [ ] Web API 开发（FastAPI / Flask）
+- [ ] 数据库操作（SQLAlchemy / SQLite）
+- [ ] 网络爬虫（requests + BeautifulSoup）
+- [ ] 数据分析初探（pandas + matplotlib）
+- [ ] 单元测试（pytest + coverage）
+
+---
+
+## 🚀 快速开始
+
+```bash
+# 克隆仓库
+git clone git@github.com:halely/python-study.git
+cd python-study
+
+# 运行示例（任意文件都可以直接执行）
+python 01_basics/01_data_types.py
+python 01_basics/02_loops.py
+python 01_basics/03_strings.py
+
+# 运行 BMI 计算器（交互式）
+python BMI.py
+```
+
+> 推荐使用 **Python 3.11+** 以获得最佳体验。
+
+---
+
+## 💡 学习建议
+
+1. **先看后练**：每个文件都有详细注释，先运行看效果，再自己修改参数试试
+2. **跟着综合练习做**：每个文件的最后都有一个综合练习，把多个知识点串起来
+3. **善用交互环境**：打开 `python` REPL 或使用 Jupyter Notebook 边学边试
+4. **多动手改代码**：把示例代码改一改、拆一拆，看会有什么变化
+
+---
+
+## 📚 推荐资源
+
+| 资源 | 说明 |
+|------|------|
+| [Python 官方文档](https://docs.python.org/zh-cn/3/) | 最好的参考手册 |
+| [Real Python](https://realpython.com/) | 高质量英文教程 |
+| [Python Cheatsheet](https://www.pythoncheatsheet.org/) | 速查表 |
+
+---
+
+## 📝 许可证
+
+MIT License — 欢迎自由学习和使用。
+
+---
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)

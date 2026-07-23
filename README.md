@@ -33,6 +33,17 @@ python-study/
 │   ├── exercise_password.py       #   练习：密码强度检查器（字符串）
 │   ├── exercise_note.py           #   练习：笔记管理器v1（文件读写初版）
 │   └── exercise_note_v2.py        #   练习：笔记管理器v2（json存储优化）
+├── 02_functions/                  # 阶段2：函数与模块化
+│   ├── 01_function_basics.py      #   函数基础（def/return/作用域/lambda）
+│   ├── 02_function_advanced_args.py # 进阶参数（*args/**kwargs/默认参数陷阱）
+│   ├── 03_module_basics.py        #   模块（import/__name__）
+│   ├── 04_exception_handling.py   #   异常处理（try/except/finally/自定义异常）
+│   ├── game_utils.py              #   工具模块（猜数字游戏的公共函数）
+│   ├── calculator_ops.py          #   运算模块（命令行计算器的核心）
+│   ├── exercise_bmi_function.py   #   练习：BMI 函数版
+│   ├── exercise_flexible_calculator.py # 练习：灵活计算器（*args）
+│   ├── exercise_guess_game_module.py  # 练习：健壮版猜数字（模块+异常）
+│   └── exercise_calculator.py     #   综合项目：命令行计算器
 ├── demo/
 │   └── BMI.py                     # 综合练习：BMI 计算器（入门作）
 ├── text.py                        # 小练习：一元二次方程
@@ -44,7 +55,7 @@ python-study/
 
 ## 🎯 学习路线图
 
-### ✅ 阶段 1：基础入门（已完成 — 2024-06-01）
+### ✅ 阶段 1：基础入门（已完成 — 2026-06-01）
 
 - [x] 核心数据类型：`list`、`tuple`、`dict`、`set` + 列表/字典/集合推导式
 - [x] 循环与控制流：`for`、`while`、`break`、`continue`、`else`
@@ -52,7 +63,15 @@ python-study/
 - [x] 文件读写：`with open()`、读写/追加模式、`pathlib`、`json` 持久化
 - [x] 综合练习：班级成绩分析、猜数字游戏、文本统计分析、购物清单、乘法表、密码检查器、笔记管理器
 
-### 🚧 阶段 2：函数与模块（下一步）
+### ✅ 阶段 2：函数与模块（已完成 — 2026-06-17）
+
+- [x] 函数基础：`def`、`return`、多返回值、作用域 LEGB、`lambda`
+- [x] 参数进阶：`*args`、`**kwargs`、默认参数（可变对象陷阱）、解包运算符
+- [x] 模块：`import`、`from ... import`、`__name__ == "__main__"`
+- [x] 异常处理：`try/except/else/finally`、`raise`、自定义异常、健壮输入验证
+- [x] 综合项目：命令行计算器（模块化拆分 + 字典映射 + 历史记录）
+
+### 🚧 阶段 3：面向对象编程（下一步）
 
 - [ ] 函数定义与作用域（`def`、`lambda`、闭包）
 - [ ] 参数进阶（`*args`、`**kwargs`、默认参数、类型提示）

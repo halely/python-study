@@ -73,14 +73,6 @@ python-study/
 
 ### 🚧 阶段 3：面向对象编程（下一步）
 
-- [ ] 函数定义与作用域（`def`、`lambda`、闭包）
-- [ ] 参数进阶（`*args`、`**kwargs`、默认参数、类型提示）
-- [ ] 模块与包管理（`import`、`__name__`、pip、虚拟环境）
-- [ ] 异常处理（`try/except/else/finally`、自定义异常）
-- [ ] 常用内置函数（`map`、`filter`、`sorted`、`enumerate`、`zip`）
-
-### 📋 阶段 3：面向对象编程
-
 - [ ] 类与对象（`class`、`__init__`、`self`）
 - [ ] 继承与多态
 - [ ] 魔术方法（`__str__`、`__repr__`、`__eq__` 等）
